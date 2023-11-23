@@ -1,0 +1,10 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.imagenCarrusel {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}

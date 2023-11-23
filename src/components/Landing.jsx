@@ -1,10 +1,13 @@
 import React from 'react';
+import Carrousel from './Carrousel';
+import Contacto from './Contacto';
 
 const Landing = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+           <Carrousel /> 
+           <Contacto />
+        </>
     );
 };
 

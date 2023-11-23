@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Footer from './components/Footer';
+import Landing from './components/Landing';
+import Navegacion from './components/Navegacion'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <Navegacion />
+      <Landing />
+      <Footer />
     </>
   )
 }
