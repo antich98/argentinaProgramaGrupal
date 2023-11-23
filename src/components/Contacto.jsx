@@ -19,11 +19,11 @@ const Contacto = () => {
       </Form.Group>
         <Form.Control
           as="textarea"
-          placeholder="Leave a comment here"
+          placeholder="Deja tu consulta."
           style={{ height: '100px' }}
         />
             <Button className="mt-3" variant="primary" type="submit">
-        Submit
+        Enviar
       </Button>
     </Form>
     </>
